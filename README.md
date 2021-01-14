@@ -6,4 +6,5 @@ MAX, your Virtual Voice Assistant is here to help you out (Use the keyword 'Max'
 * to get 'who' and 'what' information you need 
 * to tell the time
 * to tell jokes
-## You can quit by saying Quit
+
+## You can quit assistant by saying Quit
