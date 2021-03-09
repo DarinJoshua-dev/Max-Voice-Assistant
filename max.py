@@ -16,7 +16,7 @@ def talk(text):
 def take_command():
     try:
         with sr.Microphone() as source:
-            talk('Hey, I am Max, your virtual assistant, what can I do for you now?')
+            talk('Hey, I am Max, your virtual assistant, what can I do for you?')
             print("Listening...")
             voice = listener.listen(source)
             command = listener.recognize_google(voice)
@@ -58,7 +58,7 @@ def run_max():
         elif 'quit' in command:
             sys.exit(2)
         else:
-            talk('Please say a valid command and do try again')
+            talk('Please say a valid command and try again')
     except SystemExit:
         sys.exit(2)
     except:
