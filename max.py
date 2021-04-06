@@ -17,7 +17,7 @@ def take_command():
     try:
         with sr.Microphone() as source:
             talk('Hey, I am Max, your virtual voice assistant, what can I do for you now?')
-            print("Listening now....")
+            print("Listening.....")
             voice = listener.listen(source)
             command = listener.recognize_google(voice)
             command = command.lower()
