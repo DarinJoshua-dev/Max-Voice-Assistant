@@ -4,7 +4,7 @@ MAX is your Personal and Virtual Voice Assistant which is here to help you out (
 
 * to search for information on the web 
 * to play songs, videos, etc
-* to get 'who' and 'what' information you need 
+* to get 'who' & 'what' information you need 
 * to tell the time
 * to tell jokes
 
